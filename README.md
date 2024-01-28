@@ -14,7 +14,7 @@ source ./emsdk_env.sh
 Note: You will have to execute `source ./emsdk_env.sh` every time you log into your linux machine
 
 
-After this, you should have access to `emcc` which will compile C project to web assembly. Try the following
+After this, you should have access to `emcc` which will compile C projects to web assembly. Try the following
 ```bash
 emcc test.c -o test.html
 ```
